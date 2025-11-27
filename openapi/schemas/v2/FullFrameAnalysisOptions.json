@@ -1,7 +1,7 @@
 {
   "title": "Full-Frame Analysis Options",
   "x-stoplight": {
-    "id": "xxd61ehz24y57"
+    "id": "87munwi13wcd7"
   },
   "description": "Directives for performing full-frame analysis",
   "type": "object",
@@ -35,7 +35,7 @@
       "description": "Contains all analytic options to perform in this request. When each is included, it indicates that the particular analysis should be performed on the images supplied in the request.",
       "type": "object",
       "x-stoplight": {
-        "id": "f88ca5kybnlo1"
+        "id": "0zuvzn4hg3g4w"
       },
       "properties": {
         "vehicleAnalysis": {
@@ -43,7 +43,7 @@
           "description": "Include vehicle analysis in the response.",
           "additionalProperties": false,
           "x-stoplight": {
-            "id": "fxwwg6gmvq96p"
+            "id": "796w3v4h1xewl"
           }
         },
         "personAnalysis": {
@@ -51,7 +51,7 @@
           "type": "object",
           "additionalProperties": false,
           "x-stoplight": {
-            "id": "3fd8r6t6h1cnd"
+            "id": "adfgpywyw1c6v"
           }
         },
         "faceDetection": {
@@ -59,7 +59,7 @@
           "type": "object",
           "additionalProperties": false,
           "x-stoplight": {
-            "id": "mozp04mnknu92"
+            "id": "xqn574j91byxy"
           }
         },
         "sceneChangeDetection": {
@@ -67,18 +67,18 @@
           "type": "object",
           "additionalProperties": false,
           "x-stoplight": {
-            "id": "xf9ksof6q3fv0"
+            "id": "z7xg37cz0nsjj"
           },
           "properties": {
             "referenceUrls": {
               "type": "array",
               "x-stoplight": {
-                "id": "bvefarc3cp7cl"
+                "id": "1q6dj7fcmd8t6"
               },
               "description": "Images that represent \"expected state\" to be compared against the current images supplied for this analysis.",
               "items": {
                 "x-stoplight": {
-                  "id": "g2v6ofuj3jacd"
+                  "id": "dtp3vwakcujpo"
                 },
                 "type": "string",
                 "format": "uri"
@@ -91,7 +91,7 @@
           "type": "object",
           "additionalProperties": false,
           "x-stoplight": {
-            "id": "3ua89ivbyocdg"
+            "id": "626ieetksd5c4"
           }
         },
         "multipleRiskAnalysis": {
@@ -99,7 +99,7 @@
           "type": "object",
           "additionalProperties": false,
           "x-stoplight": {
-            "id": "0hiec33qk62qh"
+            "id": "p3k5knedrpdga"
           }
         }
       }
@@ -107,7 +107,7 @@
     "context": {
       "$ref": "./AnalysisContext.json",
       "x-stoplight": {
-        "id": "ppt09ytgmktmb"
+        "id": "tkttx60yaaonj"
       }
     }
   }
